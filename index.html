@@ -1,35 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seasoned Investor</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fafafa;
+            color: #333;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        .bio {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        
+        .links-section {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .links-section h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        
+        .links-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .links-list li {
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .links-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .links-list a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        
+        .links-list a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        
+        .link-description {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
 </head>
-<body bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#800080">
-
-<h1>Seasoned Investor</h1>
-
-<p>Welcome to my investment platform. With over 15 years of experience in equity markets, private equity, and venture capital, I specialize in identifying high-growth opportunities across emerging technologies and established markets.</p>
-
-<p>My investment philosophy centers on thorough fundamental analysis, long-term value creation, and strategic partnerships with exceptional management teams. I've successfully navigated multiple market cycles and have a proven track record of generating superior returns for my partners and clients.</p>
-
-<p>I focus primarily on technology, healthcare, and sustainable energy sectors, with particular expertise in early-stage companies and growth equity investments.</p>
-
-<hr>
-
-<h2>Links:</h2>
-
-<ul>
-<li><a href="/portfolio">Investment Portfolio</a></li>
-<li><a href="/insights">Market Insights</a></li>
-<li><a href="/about">About Me</a></li>
-<li><a href="/contact">Contact</a></li>
-<li><a href="https://linkedin.com/in/yourusername">LinkedIn Profile</a></li>
-<li><a href="/newsletter">Newsletter Signup</a></li>
-<li><a href="/resources">Investment Resources</a></li>
-</ul>
-
-<hr>
-
-<p><small>Last updated: August 27, 2025</small></p>
-
+<body>
+    <header>
+        <h1>Seasoned Investor</h1>
+    </header>
+    
+    <main>
+        <section class="bio">
+            <p>Welcome to my investment platform. With over 15 years of experience in equity markets, private equity, and venture capital, I specialize in identifying high-growth opportunities across emerging technologies and established markets.</p>
+            
+            <p>My investment philosophy centers on thorough fundamental analysis, long-term value creation, and strategic partnerships with exceptional management teams. I've successfully navigated multiple market cycles and have a proven track record of generating superior returns for my partners and clients.</p>
+            
+            <p>I focus primarily on technology, healthcare, and sustainable energy sectors, with particular expertise in early-stage companies and growth equity investments. My approach combines quantitative analysis with deep industry knowledge to identify companies positioned for exceptional growth.</p>
+        </section>
+        
+        <section class="links-section">
+            <h2>Resources & Connections</h2>
+            <ul class="links-list">
+                <li>
+                    <a href="/portfolio">Investment Portfolio</a>
+                    <div class="link-description">Current and past investments across various sectors</div>
+                </li>
+                <li>
+                    <a href="/insights">Market Insights</a>
+                    <div class="link-description">Regular analysis and commentary on market trends</div>
+                </li>
+                <li>
+                    <a href="/about">About Me</a>
+                    <div class="link-description">Professional background and investment philosophy</div>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                    <div class="link-description">Get in touch for investment opportunities</div>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn Profile</a>
+                    <div class="link-description">Professional network and endorsements</div>
+                </li>
+                <li>
+                    <a href="/newsletter">Newsletter Signup</a>
+                    <div class="link-description">Monthly investment updates and market analysis</div>
+                </li>
+                <li>
+                    <a href="/resources">Investment Resources</a>
+                    <div class="link-description">Tools, calculators, and educational materials</div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Seasoned Investor. All rights reserved.</p>
+    </footer>
 </body>
 </html>
